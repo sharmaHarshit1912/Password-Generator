@@ -23,7 +23,7 @@ function App() {
 
     for (let i = 1; i <= length; i++) {
       //for the index value
-      let char = Math.floor();
+      let char = Math.floor(Math.random() * str.length);
       //value corresponding to the string value
       pass += str.charAt(char);
     }
